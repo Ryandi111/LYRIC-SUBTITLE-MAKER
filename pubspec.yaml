@@ -1,0 +1,44 @@
+name: lyric_subtitle_maker
+description: Aplikasi Lyric & Subtitle Maker berbasis Flutter untuk Windows dan Android.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Media Player
+  media_kit: ^1.1.10+1
+  media_kit_video: ^1.2.4
+  media_kit_libs_android_video: ^1.3.3
+  media_kit_libs_windows_video: ^1.0.9
+  
+  # File Handling
+  file_picker: ^6.1.1
+  file_saver: ^0.2.13
+  path_provider: ^2.1.2
+  path: ^1.8.3
+  
+  # Permissions
+  permission_handler: ^11.2.0
+  
+  # Storage
+  shared_preferences: ^2.2.2
+  
+  # Utilities
+  uuid: ^4.3.3
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
